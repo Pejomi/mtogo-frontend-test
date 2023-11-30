@@ -17,8 +17,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class RestaurantMenuBrowsingDefinitions {
 
     WebDriver driver;
-    String email = "mie@gmail.com";
-    String password = "123";
+    String email = "test@gmail.com";
+    String password = "test";
 
     @Given("the consumer is on the MTOGO platform")
     public void theConsumerIsOnTheMTOGOPlatform() {
