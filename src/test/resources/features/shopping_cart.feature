@@ -1,7 +1,7 @@
 Feature: Shopping Cart
-  As a customer
+  As a customer,
   I want to add and remove items from my shopping cart,
-  So that I can review and purchase my selected items
+  So that I can review and purchase my selected items.
 
   Scenario: Add item to the shopping cart
     Given the customer is logged in
