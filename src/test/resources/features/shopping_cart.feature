@@ -4,6 +4,7 @@ Feature: Shopping Cart
   So that I can review and purchase my selected items
 
   Scenario: Add item to the shopping cart
-    Given the customer is viewing a product
-    When the customer clicks on the "Add to Cart" button
+    Given the customer is logged in
+    And is viewing a product
+    When the customer clicks on the "Add to cart" button
     Then the item should be added to the shopping cart
