@@ -1,4 +1,4 @@
-Feature:
+Feature: Restaurant Menu Browsing
   As a consumer,
   I want to browse restaurant menus on MTOGO,
   So that I can choose the food items I want to order.
