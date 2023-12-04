@@ -5,8 +5,7 @@ Feature: Order Creation
 
   Scenario: Review and confirm the order
     Given the consumer has logged in
-    And added items to the order
-    And has provided delivery or pickup details
-    When the consumer reviews the order
-    And confirms the order
-    Then the order should be submitted to the restaurant for processing
+    And added items to the cart by clicking the "Add to cart" button
+    When the consumer reviews list of items in the cart
+    And creates the order by clicking the "Create order" button
+    Then the consumer should see the message "Order successfully created!"
